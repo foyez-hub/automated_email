@@ -67,7 +67,7 @@ You will find an `example.env` file in the repository. This file contains a temp
    EMAIL_CONTENT_FILE=give full txt file path 
    ```
 
-   - **Note**: If you are using Gmail and have two-factor authentication enabled, generate an [App Password](https://support.google.com/accounts/answer/185201) to use instead of your regular password.
+   - **Note**: If you are using Gmail and have two-factor authentication enabled, generate an [App Password](https://support.google.com/mail/answer/185833?hl=en) to use instead of your regular password.
 
 ### 5. Create the Email Content File
 
