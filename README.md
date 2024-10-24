@@ -141,7 +141,5 @@ After testing, remember to revert it to your desired schedule.
 - If the script doesn't run, check the cron service status with `systemctl status cron` and ensure it’s active.
 - Review the `logfile.log` for any error messages to diagnose issues.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
