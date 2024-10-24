@@ -1,0 +1,2 @@
+python-dotenv
+# 1 2 * * *  ~/Documents/automated_email/automated_email/send_email.sh
