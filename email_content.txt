@@ -1,1 +1,12 @@
-hello i'm emam
+Dear John Smith,
+
+Welcome to Nascenia! We’re excited to have you on board and can’t wait to see the impact you’ll make. Your first day is November 1st, and you’ll be meeting Sarah Lee at 9:00 AM for an introduction to the team and a setup of your workstation.
+
+At Nascenia, we value collaboration, growth, and creativity. If you have any questions before your start, feel free to reach out to Emma Williams (emma.williams@nascenia.com).
+
+We look forward to working with you!
+
+Best regards,
+Michael Brown
+HR Manager
+Nascenia Software Company
