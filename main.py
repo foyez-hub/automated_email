@@ -11,7 +11,7 @@ if __name__ == '__main__':
     recipient_email = os.getenv('RECIPIENT_EMAIL')  
     subject = os.getenv('SUBJECT') 
     email_content_file = os.getenv('EMAIL_CONTENT_FILE') 
-
+    attachment_path = os.getenv('ATTACHMENT') if os.getenv('SEND_ATTACHMENT') == 'True' else None
     try:
         email_content = read_email_content(email_content_file)  
     except FileNotFoundError:
@@ -19,9 +19,9 @@ if __name__ == '__main__':
         exit(1)
 
     try:
-        send_email(sender_email, sender_password, recipient_email, subject, email_content)
-        # Get the current date and time when the email is sent
+        send_email(sender_email, sender_password, recipient_email, subject, email_content, attachment_path)
         current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        print(f"Email sent successfully (main) at {current_time}.")
+        print(f"Email sent successfully at {current_time}.")
     except Exception as e:
-        print(f"Failed to send email. Error(main): {e}")
+        print(f"Failed to send email. Error: {e}")
+
